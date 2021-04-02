@@ -506,9 +506,9 @@
     //#define DEFAULT_Kd 114.00
 
     // Malyan M200
-    #define DEFAULT_Kp 20.0
-    #define DEFAULT_Ki 2.02
-    #define DEFAULT_Kd 100.00
+    #define DEFAULT_Kp 13.06
+    #define DEFAULT_Ki 0.77
+    #define DEFAULT_Kd 54.71
   #endif
 #endif // PIDTEMP
 
@@ -552,9 +552,9 @@
   //#define DEFAULT_bedKd 305.4
 
   // Malyan M200
-  #define DEFAULT_bedKp 14.00
-  #define DEFAULT_bedKi 0.9
-  #define DEFAULT_bedKd 120.4
+  #define DEFAULT_bedKp 205.41
+  #define DEFAULT_bedKi 19.26
+  #define DEFAULT_bedKd 1460.03
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
@@ -998,7 +998,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { 0, 0, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { 29.8, -22.2, -1.5 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
